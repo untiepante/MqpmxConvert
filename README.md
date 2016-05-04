@@ -4,6 +4,7 @@ MqPmxConvert
 ## 概要
 .mqo&.mqx形式と.pmx形式のモデルデータを相互変換するためのプログラムです。
 プラグイン形式ではなくプログラム単体で動作し、Metasequoia4標準のボーン情報にも対応しています。
+
 (This program provides the interconversion between .mqo&.mqx and .pmx, and supports bone information of Metasequoia Ver4.
  You can run it as not a plugin software but a single program.)
 
@@ -12,7 +13,9 @@ For Windows. .NET Framework 4.0 is needed.
 
 ## 使い方
 ・.mqoから.pmxへの変換 (.mqo to .pmx)
+
 ① プログラムを開きます (Launch this program.)
+
 ② 変換したい.mqoファイルを選択します (In a file browser dialog, select source mqo file.)
 ③ 変換してできる.pmxファイルの名前を指定します。標準では元の名前の後ろに「.cnv.pmx」を付与した名前になっています (In a file browser dialog, decide the name of a destination file.)
 ④ 変換が実施されコンソールウィンドウに「正常終了」と表示されます (After the conversion finishes, "正常終了" will be displayed.)
