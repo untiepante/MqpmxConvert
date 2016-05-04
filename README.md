@@ -58,4 +58,4 @@ b2oxólçÏê¨ MQOplugin (https://github.com/b2ox/MQOplugin)
 Alexandre Mutelól SharpDX (http://sharpdx.org/)  
 
 ## Author
-[saso](https://github.com/untiepante)  
+saso
