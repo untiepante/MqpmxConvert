@@ -1,4 +1,4 @@
-MqPmxConvert
+MqPmxConvert@.20160504
 ====
 
 ## ŠT—v
@@ -48,8 +48,7 @@ WindowsŒü‚¯ƒ\ƒtƒgƒEƒFƒA‚Å‚·B“®ì‚É‚Í.NET Framework 4.0‚ÌƒCƒ“ƒXƒg[ƒ‹‚ª•K—v‚Å‚·
 
 ## ƒ‰ƒCƒZƒ“ƒX
 –{ƒvƒƒOƒ‰ƒ€‚ÍƒtƒŠ[ƒEƒFƒA‚Å‚·BŠ®‘S‚É–³•ÛØ‚Å’ñ‹Ÿ‚³‚ê‚é‚à‚Ì‚Å‚ ‚è‚±‚ê‚ðŽg—p‚µ‚½‚±‚Æ‚É‚æ‚è”­¶‚µ‚½A‚Ü‚½‚Í”­¶‚³‚¹‚½A‚ ‚é‚¢‚Í”­¶‚³‚¹‚ç‚ê‚½‚È‚Ç‚µ‚½‚¢‚©‚È‚é–â‘è‚ÉŠÖ‚µ‚Ä»ìŽÒ‚ÍˆêØ‚ÌÓ”C‚ð•‰‚¢‚Ü‚¹‚ñB  
-•Ê“rƒ‰ƒCƒZƒ“ƒX‚ª–¾‹L‚³‚ê‚Ä‚¢‚éêŠ‚Ü‚½‚Íƒtƒ@ƒCƒ‹‚ðœ‚«AŒÂlE¤—p—˜—p‚É‚©‚©‚í‚ç‚¸Žg—pŽÒ‚Í–{ƒvƒƒOƒ‰ƒ€‚ðŽ©‚ç‚ÌÓ”C‚É‚¨‚¢‚ÄŽ©—R‚É•¡»A‰ü•Ï‚·‚é‚±‚Æ‚ª‰Â”\‚Å‚·B  
-‚Ü‚½–{ƒvƒƒOƒ‰ƒ€‚Ìƒ\[ƒXƒR[ƒh‚Ígithubã‚ÉŒöŠJ‚µ‚Ü‚·‚Ì‚ÅA‚»‚±‚©‚çƒR[ƒh‚ðŠm”F‚·‚é‚±‚Æ‚à‚Å‚«‚Ü‚·B  
+•Ê“rƒ‰ƒCƒZƒ“ƒX‚ª–¾‹L‚³‚ê‚Ä‚¢‚éêŠ‚Ü‚½‚Íƒtƒ@ƒCƒ‹‚ðœ‚«AŒÂlE¤—p—˜—p‚É‚©‚©‚í‚ç‚¸Žg—pŽÒ‚ÍŽ©‚ç‚ÌÓ”C‚É‚¨‚¢‚Ä–{ƒvƒƒOƒ‰ƒ€‚ðŽ©—R‚É•¡»A‰ü•Ï‚·‚é‚±‚Æ‚ª‰Â”\‚Å‚·B  
 
 ## ŽÓŽ«
 –{ƒvƒƒOƒ‰ƒ€ì¬‚É‚ ‚½‚Á‚Ä‚ÍˆÈ‰º‚Ì•û‚ÌƒR[ƒh‚ð—˜—p‚³‚¹‚Ä‚¢‚½‚¾‚¢‚Ä‚¨‚è‚Ü‚·B‚±‚Ìê‚ðŽØ‚è‚Ä‚¨—ç\‚µã‚°‚Ü‚·B  
