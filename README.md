@@ -29,7 +29,7 @@ For Windows. .NET Framework 4.0 is needed.
 ※また、コマンドライン引数を入力ファイルパス、出力ファイルパスの順で与えることによっても変換することができます  
  
 
-(
+(  
 [Mqo to pmx]
  1. Launch this program.  
  2. In a file browser dialog, select source mqo file.  
