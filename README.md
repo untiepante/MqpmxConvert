@@ -27,14 +27,15 @@ For Windows. .NET Framework 4.0 is needed.
   
 ※本プログラムに変換したいファイルをドラッグアンドドロップすることによっても変換することができます  
 ※また、コマンドライン引数を入力ファイルパス、出力ファイルパスの順で与えることによっても変換することができます  
-(・Mqo to pmx
+(
+・Mqo to pmx
  1. Launch this program.  
  2. In a file browser dialog, select source mqo file.  
  3. In a file browser dialog, decide the name of a destination file.  
  4. After the conversion finishes, "正常終了" will be displayed.  
   Information of curved surfaces and inverse-kinematicsk, materials has been lost maybe.
 
- ・Pmx to Mqo
+・Pmx to Mqo
  1. Launch this program.  
  2. In a file browser dialog, select source pmx file.  
  3. In a file browser dialog, decide the name of a destination file.  
