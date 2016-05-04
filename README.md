@@ -12,7 +12,7 @@ WindowsŒü‚¯ƒ\ƒtƒgƒEƒFƒA‚Å‚·B“®ì‚É‚Í.NET Framework 4.0‚ÌƒCƒ“ƒXƒg[ƒ‹‚ª•K—v‚Å‚·
 (For Windows. .NET Framework 4.0 is needed.)    
 
 ## Žg‚¢•û
-Emqo‚©‚çpmx‚Ö‚Ì•ÏŠ· @
+Emqo‚©‚çpmx‚Ö‚Ì•ÏŠ·  
 ‡@ ƒvƒƒOƒ‰ƒ€‚ðŠJ‚«‚Ü‚·  
 ‡A •ÏŠ·‚µ‚½‚¢.mqoƒtƒ@ƒCƒ‹‚ð‘I‘ð‚µ‚Ü‚·  
 ‡B •ÏŠ·‚µ‚Ä‚Å‚«‚é.pmxƒtƒ@ƒCƒ‹‚Ì–¼‘O‚ðŽw’è‚µ‚Ü‚·B•W€‚Å‚ÍŒ³‚Ì–¼‘O‚ÌŒã‚ë‚Éu.cnv.pmxv‚ð•t—^‚µ‚½–¼‘O‚É‚È‚Á‚Ä‚¢‚Ü‚·   
