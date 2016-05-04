@@ -8,7 +8,8 @@ MqPmxConvert
  You can run it as not a plugin software but a single program.)  
 
 ## 必須要件
-For Windows. .NET Framework 4.0 is needed.  
+Windows向けソフトウェアです。動作には.NET Framework 4.0のインストールが必要です。(http://www.microsoft.com/ja-jp/download/details.aspx?id=17718)  
+(For Windows. .NET Framework 4.0 is needed.)    
 
 ## 使い方
 ・mqoからpmxへの変換 
