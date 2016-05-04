@@ -1,5 +1,5 @@
-MqPmxConvert
-ƒV[ƒT[
+MqPmxConvert .20160504
+saso
 
 1.ŠT—v
 .mqo&.mqxŒ`Ž®‚Æ.pmxŒ`Ž®‚Ìƒ‚ƒfƒ‹ƒf[ƒ^‚ð‘ŠŒÝ•ÏŠ·‚·‚é‚½‚ß‚ÌƒvƒƒOƒ‰ƒ€‚Å‚·B
@@ -58,7 +58,7 @@ PMXEditor‚Åƒ‚ƒfƒ‹‚ª•\Ž¦‚³‚ê‚Ä‚¢‚é‚Ì‚Éƒ‚ƒfƒ‹–¼‚â’¸“_î•ñ‚È‚Ç‚ª‚¨‚©‚µ‚¢ê‡‚Íu•Ò
 •s‹ï‡‚âV‹@”\’Ç‰Á‚É‚Â‚¢‚Ä‰½‚©‚ ‚ê‚Î‚²˜A—‚­‚¾‚³‚¢Bi‘Î‰ž‚Å‚«‚é‚©‚ÍìŽÒ‚Ì“s‡‚É‚æ‚è‚í‚©‚è‚Ü‚¹‚ñ‚ªj
 ‚»‚ÌÛ‚É‚ÍƒGƒ‰[‚ª”­¶‚µ‚½‰æ–Ê‚ÌƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg‚âƒƒbƒZ[ƒWA–â‘è‚ª‹N‚«‚éƒ‚ƒfƒ‹ƒf[ƒ^AŽè‡‚ð‚¨’m‚ç‚¹‚¢‚½‚¾‚¯‚é‚Æ‚ ‚è‚ª‚½‚¢‚Å‚·B
 ƒjƒRƒjƒRƒRƒ~ƒ…ƒjƒeƒB[ŒfŽ¦”Â: http://com.nicovideo.jp/community/co2547064
-Vƒo[ƒWƒ‡ƒ“‚Ì”z•z“™‚à‚±‚ÌƒTƒCƒg‚Ås‚¤—\’è‚Å‚·B
+Vƒo[ƒWƒ‡ƒ“‚Ì”z•z“™‚à‚»‚¿‚ç‚Ås‚¤—\’è‚Å‚·B
 
 
 5.ŽÓŽ«
@@ -72,6 +72,7 @@ Alexandre Mutel—l SharpDX (http://sharpdx.org/)
 –{ƒvƒƒOƒ‰ƒ€‚ÍƒtƒŠ[ƒEƒFƒA‚Å‚·BŠ®‘S‚É–³•ÛØ‚Å’ñ‹Ÿ‚³‚ê‚é‚à‚Ì‚Å‚ ‚è‚±‚ê‚ðŽg—p‚µ‚½‚±‚Æ‚É‚æ‚è”­¶‚µ‚½A‚Ü‚½‚Í”­¶‚³‚¹‚½A‚ ‚é‚¢‚Í”­¶‚³‚¹‚ç‚ê‚½‚È‚Ç‚µ‚½‚¢‚©‚È‚é–â‘è‚ÉŠÖ‚µ‚Ä»ìŽÒ‚ÍˆêØ‚ÌÓ”C‚ð•‰‚¢‚Ü‚¹‚ñB
 •Ê“rƒ‰ƒCƒZƒ“ƒX‚ª–¾‹L‚³‚ê‚Ä‚¢‚éêŠ‚Ü‚½‚Íƒtƒ@ƒCƒ‹‚ðœ‚«AŒÂlE¤—p—˜—p‚É‚©‚©‚í‚ç‚¸Žg—pŽÒ‚Í–{ƒvƒƒOƒ‰ƒ€‚ðŽ©‚ç‚ÌÓ”C‚É‚¨‚¢‚ÄŽ©—R‚É•¡»A‰ü•Ï‚·‚é‚±‚Æ‚ª‰Â”\‚Å‚·B
 ‚Ü‚½–{ƒvƒƒOƒ‰ƒ€‚Ìƒ\[ƒXƒR[ƒh‚Ígithubã‚ÉŒöŠJ‚µ‚Ü‚·‚Ì‚ÅA‚»‚±‚©‚çƒR[ƒh‚ðŠm”F‚·‚é‚±‚Æ‚à‚Å‚«‚Ü‚·B
+https://github.com/untiepante/MqpmxConvert
 
 
 7.XV—š—ð
