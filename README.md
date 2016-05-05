@@ -19,7 +19,7 @@ WindowsŒü‚¯ƒ\ƒtƒgƒEƒFƒA‚Å‚·B“®ì‚É‚Í.NET Framework 4.0‚ÌƒCƒ“ƒXƒg[ƒ‹‚ª•K—v‚Å‚·
 ‡C •ÏŠ·‚ªŽÀŽ{‚³‚êƒRƒ“ƒ\[ƒ‹ƒEƒBƒ“ƒhƒE‚Éu³íI—¹v‚Æ•\Ž¦‚³‚ê‚Ü‚·  
 ¦‹È–Ê‚âIKAˆê•”ÞŽ¿“™‚Ìî•ñ‚Í•ÏŠ·‚³‚ê‚Ü‚¹‚ñ  
   
-Emqo‚©‚çpmx‚Ö‚Ì•ÏŠ·  
+Epmx‚©‚çmqo‚Ö‚Ì•ÏŠ·  
 ‡@ ƒvƒƒOƒ‰ƒ€‚ðŠJ‚«‚Ü‚·  
 ‡A •ÏŠ·‚µ‚½‚¢.pmxƒtƒ@ƒCƒ‹‚ð‘I‘ð‚µ‚Ü‚·  
 ‡B •ÏŠ·‚µ‚Ä‚Å‚«‚é.mqoE.mqxƒtƒ@ƒCƒ‹‚Ì–¼‘O‚ðŽw’è‚µ‚Ü‚·B•W€‚Å‚ÍŒ³‚Ì–¼‘O‚ÌŒã‚ë‚Éu.cnv.mqov‚ð•t—^‚µ‚½–¼‘O‚É‚È‚Á‚Ä‚¢‚Ü‚·  
