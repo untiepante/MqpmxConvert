@@ -1,4 +1,4 @@
-MqPmxConvert .20160504
+MqPmxConvert .20160522
 saso
 
 1.概要
@@ -76,6 +76,10 @@ https://github.com/untiepante/MqpmxConvert
 
 
 7.更新履歴
+
+・20160522
+<追加>
+MQ->PMX変換時に、VMDモーションのボーン名文字列長制限に適合するようにリネームするような処理を追加しました。
 
 ・20160504
 初期リリース

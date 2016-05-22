@@ -99,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Graphic\Azure\BinaryAccess.cs" />
+    <Compile Include="Graphic\Azure\Model\Import\MQO\CharIndexEnumerator.cs" />
     <Compile Include="Graphic\Azure\Model\Import\MQO\MQOFile.cs" />
     <Compile Include="Graphic\Azure\Model\Import\MQO\MQOFile.read.cs" />
     <Compile Include="Graphic\Azure\Model\Import\MQO\MQOFile.utils.cs" />

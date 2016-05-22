@@ -10,6 +10,7 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
 {
     public class MQOImporter
     {
+        static Encoding NameEncoder = Encoding.GetEncoding("shift-jis");
         public String Caption { get { return "Metasequoia"; } }
         public String Ext { get { return ".mqo"; } }
 
@@ -21,9 +22,11 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
             Console.WriteLine("MQOファイルを読込中...");
             using (MQOFile mqo = MQOFile.load(mqopath, true)) // 三角面化して読み込む
             {
-                if (mqo == null) throw new Exception("読み込み失敗。おそらくmqoファイルの構文エラー。");
+                if (mqo == null) 
+                    throw new Exception("読み込み失敗。おそらくmqoファイルの構文エラー。");
 
-                if (mqo.ObjectByList.Count == 0) throw new Exception("オブジェクトが空です。");
+                if (mqo.ObjectByList.Count == 0) 
+                    throw new Exception("オブジェクトが空です。");
 
                 //PMXを作成
                 PMXModel pmx = new PMXModel();
@@ -369,6 +372,66 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
 
                     pmx.Displays[i] = e;
                 }
+
+                //VMD書き出し時の名前衝突の回避
+                Console.WriteLine("");
+                Console.WriteLine("ボーン名の衝突を確認中...");
+                Encoding NameEncoder = Encoding.GetEncoding("shift-jis");
+                List<PMXBone> uncheckedIndices = new List<PMXBone>();
+                for (int i = 0; i < pmx.Bones.Length; i++)
+                { //まずすべての材質名を14バイト以下にする
+                    string src = pmx.Bones[i].BoneName;
+
+                    bool changed = false;
+                    while (NameEncoder.GetByteCount(src) >= 15)
+                    {
+                        src = src.Remove(src.Length - 1, 1);
+                        changed = true;
+                    }
+
+                    if (changed)
+                        Console.WriteLine("\tボーン'{0}'は'{1}'に変更されます...", pmx.Bones[i].BoneName, src);
+
+
+                    pmx.Bones[i].BoneName = src;
+
+                    uncheckedIndices.Add(pmx.Bones[i]);
+                }
+                while (uncheckedIndices.Count > 0)
+                {
+                    List<PMXBone> duplicatedIndices = new List<PMXBone>();
+
+                    //先頭の要素と比較する
+                    duplicatedIndices.Add(uncheckedIndices[0]);
+                    uncheckedIndices.RemoveAt(0);
+
+                    //一致するものを検索
+                    for (int i = 0; i < uncheckedIndices.Count; i++)
+                    {
+                        if (uncheckedIndices[i].BoneName != duplicatedIndices[0].BoneName)
+                            continue;
+
+                        duplicatedIndices.Add(uncheckedIndices[i]);
+                        uncheckedIndices.RemoveAt(i);
+                        i--;
+                    }
+
+                    //名前の後ろにインデクスをつける
+                    if (duplicatedIndices.Count <= 1)
+                        continue;
+                    var indexEnumerator = new CharIndexEnumerator().GetEnumerator();
+                    foreach (var e in duplicatedIndices)
+                    {
+                        if (!indexEnumerator.MoveNext())
+                            System.Windows.Forms.MessageBox.Show("ボーンの名前重複を確認してください");
+
+                        Console.WriteLine("\t'{0}'は'{1}'に変更されます...", e.BoneName, e.BoneName + indexEnumerator.Current);
+
+                        e.BoneName += indexEnumerator.Current;
+
+                    }
+                }
+                Console.WriteLine("");
 
                 string outPath = outpathWithoutExt + ".pmx";
                 if (System.IO.File.Exists(outPath))
