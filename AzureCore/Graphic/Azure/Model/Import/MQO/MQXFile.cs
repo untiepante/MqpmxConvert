@@ -393,6 +393,7 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
                 MqoBone bone = new MqoBone(i);
                 bone.Read(reader);
                 boneList.Add(bone);
+                i++;
             }
             reader.ReadEndElement();//BoneSet
 

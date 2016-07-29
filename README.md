@@ -1,4 +1,4 @@
-MqPmxConvert@.20160522
+MqPmxConvert@.20160730
 ====
 
 ## ŠT—v
@@ -45,6 +45,22 @@ WindowsŒü‚¯ƒ\ƒtƒgƒEƒFƒA‚Å‚·B“®ì‚É‚Í.NET Framework 4.0‚ÌƒCƒ“ƒXƒg[ƒ‹‚ª•K—v‚Å‚·
   * Information of rigids and joints, morph, materials has been lost maybe.
 
 * You can convert a file with drag-and-drop or command-line arguments.)
+
+## XV—š—ğ
+
+E20160730
+<C³>
+MQ->PMX•ÏŠ·‚ÉAƒ{[ƒ“‚ÌƒEƒFƒCƒg‚ª‚¤‚Ü‚­İ’è‚³‚ê‚È‚¢‚±‚Æ‚ª‚ ‚é•s‹ï‡‚ğC³‚µ‚Ü‚µ‚½B
+Fixing the problem of wrong bone weight setting.
+
+E20160522
+<’Ç‰Á>
+MQ->PMX•ÏŠ·‚ÉAVMDƒ‚[ƒVƒ‡ƒ“‚Ìƒ{[ƒ“–¼•¶š—ñ’·§ŒÀ‚É“K‡‚·‚é‚æ‚¤‚ÉƒŠƒl[ƒ€‚·‚é‚æ‚¤‚Èˆ—‚ğ’Ç‰Á‚µ‚Ü‚µ‚½B
+Adding feature of renaming bone's names whose length is too long to be read by MMD.
+
+E20160504
+‰ŠúƒŠƒŠ[ƒX
+Initial release.
 
 ## ƒ‰ƒCƒZƒ“ƒX
 –{ƒvƒƒOƒ‰ƒ€‚ÍƒtƒŠ[ƒEƒFƒA‚Å‚·BŠ®‘S‚É–³•ÛØ‚Å’ñ‹Ÿ‚³‚ê‚é‚à‚Ì‚Å‚ ‚è‚±‚ê‚ğg—p‚µ‚½‚±‚Æ‚É‚æ‚è”­¶‚µ‚½A‚Ü‚½‚Í”­¶‚³‚¹‚½A‚ ‚é‚¢‚Í”­¶‚³‚¹‚ç‚ê‚½‚È‚Ç‚µ‚½‚¢‚©‚È‚é–â‘è‚ÉŠÖ‚µ‚Ä»ìÒ‚ÍˆêØ‚ÌÓ”C‚ğ•‰‚¢‚Ü‚¹‚ñB  

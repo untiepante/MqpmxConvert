@@ -1,4 +1,4 @@
-MqPmxConvert .20160522
+MqPmxConvert .20160730
 saso
 
 1.ŠT—v
@@ -58,6 +58,8 @@ PMXEditor‚Åƒ‚ƒfƒ‹‚ª•\Ž¦‚³‚ê‚Ä‚¢‚é‚Ì‚Éƒ‚ƒfƒ‹–¼‚â’¸“_î•ñ‚È‚Ç‚ª‚¨‚©‚µ‚¢ê‡‚Íu•Ò
 •s‹ï‡‚âV‹@”\’Ç‰Á‚É‚Â‚¢‚Ä‰½‚©‚ ‚ê‚Î‚²˜A—‚­‚¾‚³‚¢Bi‘Î‰ž‚Å‚«‚é‚©‚ÍìŽÒ‚Ì“s‡‚É‚æ‚è‚í‚©‚è‚Ü‚¹‚ñ‚ªj
 ‚»‚ÌÛ‚É‚ÍƒGƒ‰[‚ª”­¶‚µ‚½‰æ–Ê‚ÌƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg‚âƒƒbƒZ[ƒWA–â‘è‚ª‹N‚«‚éƒ‚ƒfƒ‹ƒf[ƒ^AŽè‡‚ð‚¨’m‚ç‚¹‚¢‚½‚¾‚¯‚é‚Æ‚ ‚è‚ª‚½‚¢‚Å‚·B
 ƒjƒRƒjƒRƒRƒ~ƒ…ƒjƒeƒB[ŒfŽ¦”Â: http://com.nicovideo.jp/community/co2547064
+twitter:
+@untie0830
 Vƒo[ƒWƒ‡ƒ“‚Ì”z•z“™‚à‚»‚¿‚ç‚Ås‚¤—\’è‚Å‚·B
 
 
@@ -76,6 +78,10 @@ https://github.com/untiepante/MqpmxConvert
 
 
 7.XV—š—ð
+
+E20160730
+<C³>
+MQ->PMX•ÏŠ·Žž‚ÉAƒ{[ƒ“‚ÌƒEƒFƒCƒg‚ª‚¤‚Ü‚­Ý’è‚³‚ê‚È‚¢‚±‚Æ‚ª‚ ‚é•s‹ï‡‚ðC³‚µ‚Ü‚µ‚½B
 
 E20160522
 <’Ç‰Á>
