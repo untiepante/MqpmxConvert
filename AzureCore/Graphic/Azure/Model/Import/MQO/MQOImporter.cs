@@ -28,7 +28,7 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
                 if (mqo.ObjectByList.Count == 0) 
                     throw new Exception("オブジェクトが空です。");
 
-                //PMXを作成
+                //PMXモデルの初期化
                 PMXModel pmx = new PMXModel();
                 pmx.Info = new PMXInfo();
                 pmx.Info.ModelName = mqo.ObjectByList[0].Name;
@@ -38,7 +38,7 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
                 pmx.Header.AddInfo = new byte[8];
                 pmx.Header.AddInfoLength = 8;
 
-                //材質を作成
+                //PMX材質の作成
                 if (mqo.Material.Count == 0) throw new Exception("材質がありません。少なくとも1つ材質が必要です。");
                 pmx.TextureList = new List<string>();
                 pmx.Materials = new PMXMaterial[mqo.Material.Count];
@@ -88,16 +88,14 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
                     pmx.Materials[i] = pm;
                 }
 
-                //各オブジェクトを処理
-                //ただし、非表示オブジェクトはスキップ
-                //法線を計算する
+                //MQOオブジェクトを読み込む
                 for (int i = 0; i < mqo.ObjectByList.Count; i++)
                 {
                     MQOObject obj = mqo.ObjectByList[i];
                     if (obj.Visible) obj.CalcNormals();
                 }
 
-                //頂点を登録する
+                //MQO頂点と面を読み込む
                 TempVertexGroup vertexGroup = new TempVertexGroup();
                 TempPolygonGroup[] polygonGroups = new TempPolygonGroup[mqo.Material.Count];
                 for (int i = 0; i < polygonGroups.Length; i++)
@@ -139,7 +137,7 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
                     Console.WriteLine();
                 }
 
-                //ボーンを読み込む
+                //MQXボーンを読み込む
                 MqxReader mqxReader = new MqxReader();
                 if (!mqxReader.Load(mqopath))
                 {
@@ -150,6 +148,8 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
                 {
                     Console.WriteLine("ボーン情報が読み込まれました!");
                 }
+
+                //PMXボーンを生成する
                 pmx.Bones = new PMXBone[mqxReader.bones.Length];
                 for (int i = 0; i < pmx.Bones.Length; i++)
                 {
@@ -171,6 +171,7 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
                     pmx.Bones[i] = pbn;
                 }
 
+                //生成したPMXボーンを親子関係が問題にならないように並び替える
                 BoneIndexTable boneIndexTable = new BoneIndexTable(pmx.Bones.Length);
                 while (true)
                 {
@@ -218,7 +219,7 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
                         pmx.Bones[i].ViewBoneIndex = boneIndexTable.ConvertToPMX(pmx.Bones[i].ViewBoneIndex);
                 }
 
-                //頂点を設定する
+                //PMX頂点を設定する
                 Console.WriteLine("頂点を設定中...");
                 pmx.Vertexes = new PMXVertex[vertexGroup.Vertices.Count];
                 bool over2 = false;
@@ -321,7 +322,7 @@ namespace AzureCore.Graphic.Azure.Model.Import.MQO
                 if (over2)
                     System.Windows.Forms.MessageBox.Show("ボーンの参照数が2よりも大きい頂点が有りました");
 
-                //ポリゴンを登録
+                //PMXポリゴンを登録
                 List<TempPolygonGroup.TempPolygon> polygonList = new List<TempPolygonGroup.TempPolygon>();
                 int faceCount = 0;
                 for (int i = 0; i < polygonGroups.Length; i++)
